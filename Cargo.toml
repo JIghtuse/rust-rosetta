@@ -87,6 +87,8 @@ term-painter = "0.2"
 time = "0.1"
 unicode-segmentation = "0.1"
 url = "1.1.0"
+sdl2 = "0.18"
+sdl2_gfx = "0.18"
 
 [target.'cfg(unix)'.dependencies]
 rustbox = "0.8"
@@ -227,6 +229,11 @@ path = "src/amicable_pairs.rs"
 # http://rosettacode.org/wiki/Anagrams
 name = "anagrams"
 path = "src/anagrams.rs"
+
+[[bin]]
+# http://rosettacode.org/wiki/Animate_a_pendulum
+name = "animate_a_pendulum"
+path = "src/animate_a_pendulum.rs"
 
 [[bin]]
 # http://rosettacode.org/wiki/Anonymous_recursion
